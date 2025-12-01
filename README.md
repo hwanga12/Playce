@@ -1,6 +1,6 @@
 <br>
 
-# 📌 1. 프로젝트 개요
+# 1. 프로젝트 개요
 ## 1.1 기획 의도
 스포츠 경기를 중계해주는 식당, 펍을 찾아본 경험이 있으신가요?<br>
 원하는 경기를 중계하는지 물어본 경험이 있으신가요?<br><br>
@@ -31,7 +31,7 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
 
 -----
 
-# 🚀 2. 주요 기능
+# 2. 주요 기능
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
     <td style="width:33%; text-align:center; vertical-align:middle;">
@@ -136,7 +136,7 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
 
 -----
 
-# 🛠️ 3. 기술 스택 및 아키텍처
+# 3. 기술 스택 및 아키텍처
 ## 3.1 기술 스택
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
@@ -173,7 +173,7 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
 
 -----
 
-# 🗂️ 4. ERD & API 명세
+# 4. ERD & API 명세
 ## 4.1 ERD
 ![ERD](readme-assets/4-1_ERD.png)
 
@@ -183,7 +183,7 @@ Swagger UI도 지원하며, 백엔드 서버 실행 후 http://localhost:3000/ap
 
 -----
 
-# 💻 5. 서버 실행
+# 5. 서버 실행
 프로젝트를 로컬에서 실행하려면 프론트엔드와 백엔드 서버를 각각 실행해야 합니다.<br>
 아래는 전체적인 실행 흐름이며, **세부 설정은 각 리드미에서 확인해주세요.**
 클론, 설치 등
@@ -219,7 +219,7 @@ npm run dev
 
 -----
 
-# 🧑‍🤝‍🧑 6. 팀 구성 및 역할분담
+# 6. 팀 구성 및 역할분담
 * 공동 작업 : 기능 구체화, 피그마 UI 설계, API 명세서 작성
 ## 6.1 프론트엔드
 <table border="1" cellpadding="5" cellspacing="0">
@@ -287,12 +287,12 @@ npm run dev
 
 -----
 
-# 📎 7. 프론트엔드/백엔드 상세
+# 7. 프론트엔드/백엔드 상세
 기타 상세는 [프론트엔드 README 파일](frontend/README.md), [백엔드 README 파일](backend/README.md)을 참고하세요
 
 -----
 
-# 🔥 8. 내 역할 및 트러블 슈팅
+# 8. 내 역할 및 트러블 슈팅
 
 ## 8.1 성능 최적화 결과 (Redis & k6)
 
@@ -324,7 +324,7 @@ npm run dev
 
 -----
 
-# 💡 9. 프로젝트 회고 (KPT)
+# 9. 프로젝트 회고 (KPT)
 
 | 구분 | 내용 |
 | :--- | :--- |
