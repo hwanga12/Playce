@@ -29,6 +29,8 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
   - 집에서 혼자 보는 경기에서 벗어나, 식당에서 함께 응원하며 경기를 시청하는 문화를 활성화할 수 있음
   - 특정 구단 팬을 위한 정기 응원 모임, 단체 관람 등의 다양한 스포츠 문화를 창출할 수 있으며, 지역 기반 스포츠 커뮤니티 플랫폼으로 확장 가능
 
+-----
+
 # 🚀 2. 주요 기능
 <table border="1" cellpadding="5" cellspacing="0">
   <tr>
@@ -132,6 +134,8 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
   </tr>
 </table>
 
+-----
+
 # 🛠️ 3. 기술 스택 및 아키텍처
 ## 3.1 기술 스택
 <table border="1" cellpadding="5" cellspacing="0">
@@ -167,6 +171,8 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
 ## 3.2 아키텍처
 ![architecture](readme-assets/3-2_architecture.png)
 
+-----
+
 # 🗂️ 4. ERD & API 명세
 ## 4.1 ERD
 ![ERD](readme-assets/4-1_ERD.png)
@@ -174,6 +180,8 @@ PLAYCE는 PLAY(스포츠 경기)와 PLACE(장소)의 합성어로<br>
 ## 4.2 API 명세
 프로젝트의 모든 API 목록은 'backend' 폴더 내 [README 파일](backend/README.md#52-api-명세)에서 상세히 확인할 수 있습니다.<br>
 Swagger UI도 지원하며, 백엔드 서버 실행 후 http://localhost:3000/api-docs 에서 전체 명세를 확인할 수 있습니다.
+
+-----
 
 # 💻 5. 서버 실행
 프로젝트를 로컬에서 실행하려면 프론트엔드와 백엔드 서버를 각각 실행해야 합니다.<br>
@@ -208,6 +216,8 @@ npm install
 npm run dev
 ```
 -> 상세 가이드는 'backend' 폴더 내 [README 파일](backend/README.md#-3-서버-실행)에서 확인
+
+-----
 
 # 🧑‍🤝‍🧑 6. 팀 구성 및 역할분담
 * 공동 작업 : 기능 구체화, 피그마 UI 설계, API 명세서 작성
@@ -275,9 +285,12 @@ npm run dev
   </tr>
 </table>
 
+-----
+
 # 📎 7. 프론트엔드/백엔드 상세
 기타 상세는 [프론트엔드 README 파일](frontend/README.md), [백엔드 README 파일](backend/README.md)을 참고하세요
 
+-----
 
 # 🔥 8. 내 역할 및 트러블 슈팅
 
