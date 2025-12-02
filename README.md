@@ -330,7 +330,7 @@ npm run dev
 **문제**: `big_regions` (광역시/도)와 `small_regions` (시/군/구)를 동시에 필터링할 때, 복잡한 조합 조건(예: 서울 전체 + 경기 중구)을 단순 `IN` 조건으로 표현 불가능.
 
 **해결**:
-  * **TypeORM Brackets 사용**: 복잡한 **OR (A AND B)** 형태의 논리 조합을 처리하기 위해 \*\*TypeORM의 `Brackets`\*\*를 활용.
+  * **TypeORM Brackets 사용**: 복잡한 **OR (A AND B)** 형태의 논리 조합을 처리하기 위해 **TypeORM의 `Brackets`**를 활용.
   * **다층적 접근**: `small_region`이 주어진 경우, 해당 지역이 속한 `big_region` 조건을 명확히 분기하여 의도한 필터링 결과를 도출.
 
 -----
